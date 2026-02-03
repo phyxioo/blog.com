@@ -1,0 +1,145 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 7px;
+  word-spacing: 25px;
+  font-family: courier;
+  font-weight:bold;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  z-index: 2;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+p {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
+  text-decoration: none;
+}
+img {
+    box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
+    border-radius: 20px;
+    border:2px solid #000;
+}
+    body {
+      width: 1000px;       
+      margin: 0 auto;      
+    }
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 1000px;
+    }
+    td {
+      border: 1px solid #333;
+      width: 250px;       
+      height: 200px;      
+      text-align: center;
+      vertical-align: middle;
+      overflow: hidden;
+    }
+    img {
+      width: 250px; 
+      height: 200px;
+      object-fit: cover; 
+      display: block;
+    }
+  html {
+      scroll-behavior: smooth;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 10px;
+  padding: 7px;
+  word-spacing: 25px;
+  font-family: courier;
+  font-weight:bold;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  z-index: 2;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+p {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
+  text-decoration: none;
+}
+img {
+    box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
+    border-radius: 20px;
+    border:2px solid #000;
+}
+    body {
+      width: 1000px;       
+      margin: 0 auto;      
+    }
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+      width: 1000px;
+    }
+    td {
+      border: 1px solid #333;
+      width: 250px;       
+      height: 200px;      
+      text-align: center;
+      vertical-align: middle;
+      overflow: hidden;
+    }
+    img {
+      width: 250px; 
+      height: 200px;
+      object-fit: cover; 
+      display: block;
+    }
+  html {
+      scroll-behavior: smooth;
+    }
