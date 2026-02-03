@@ -1,22 +1,63 @@
+body {
+  margin: 0;
+  background-color: #9dbaf2;
+  color: #333;
+  line-height: 1.5;
+}
+#paaer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001e59;
+  padding: 0.4rem;
+  color: white;
+}
+.paa {
+  margin: 0;
+  padding: 7px;
+  display: flex;
+  gap: 1.5rem;
+  background-color: #9dbaf2;
+  border-radius: 10px;
+  font-family: garamond, Sans-Serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 2px dotted #0039ab;
+}
+.size {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 
-ul {
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001e59;
+  padding: 0.4rem;
+  color: white;
+}
+.navbar1 {
+  display: flex;
+  align-items: center;
+  background-color: #0039ab;
+  padding: 1rem;
+}
+.nav-links {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  border-radius: 10px;
   padding: 7px;
-  word-spacing: 25px;
-  font-family: courier;
-  font-weight:bold;
+  display: flex;
+  gap: 1.5rem;
+  background-color: #0039ab;
+  border-radius: 10px;
+  font-family: garamond, Sans-Serif;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
-ul li {
-  float: left;
-}
-
-ul li a {
+.nav-links a {
   display: block;
   color: white;
   text-align: center;
@@ -24,122 +65,75 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
-  background-color: #111111;
+.nav-links a:hover {
+  background-color: #001e59;
   transform: scale(1.08);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   z-index: 2;
   font-weight: bold;
   border-radius: 20px;
+  color: #9ebeff;
 }
 
-p {
-  padding: 10px;
-  margin: 5px;
-  border-radius: 20px;
-  box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
-  text-decoration: none;
-}
-img {
-    box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
-    border-radius: 20px;
-    border:2px solid #000;
-}
-    body {
-      width: 1000px;       
-      margin: 0 auto;      
-    }
-    table {
-      border-collapse: collapse;
-      table-layout: fixed;
-      width: 1000px;
-    }
-    td {
-      border: 1px solid #333;
-      width: 250px;       
-      height: 200px;      
-      text-align: center;
-      vertical-align: middle;
-      overflow: hidden;
-    }
-    img {
-      width: 250px; 
-      height: 200px;
-      object-fit: cover; 
-      display: block;
-    }
-  html {
-      scroll-behavior: smooth;
-    }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  border-radius: 10px;
-  padding: 7px;
-  word-spacing: 25px;
-  font-family: courier;
-  font-weight:bold;
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: white;
+.banner {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 3rem;
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20240912/pngtree-close-up-of-camera-lens-image_16167235.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: helvetica;
+  letter-spacing: 2px;
+  position: relative;
 }
 
-ul li a:hover {
-  background-color: #111111;
-  transform: scale(1.08);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-  z-index: 2;
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 0;
+}
+
+.banner h1, .banner p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+
+.banner1 {
+  text-align: center;
+  padding: 2rem;
+  background: ;
+}
+
+.welcome {
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 3px dashed #082254;
+  border-radius: 20px;
+  background: rgba(65, 75, 94, 0.6);
+  color: white;
+  text-align: justify;
+  font-family: helvetica;
+  letter-spacing: -0.4px;
+  word-spacing: 3px;
+}
+
+.ib {
+  font-style: italic;
   font-weight: bold;
-  border-radius: 20px;
 }
-
-p {
-  padding: 10px;
-  margin: 5px;
-  border-radius: 20px;
-  box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
-  text-decoration: none;
+.i {
+  font-style: italic;
 }
-img {
-    box-shadow: 0 0 80px rgba(216, 213, 242,0.5);
-    border-radius: 20px;
-    border:2px solid #000;
+.b {
+  font-weight: bold;
 }
-    body {
-      width: 1000px;       
-      margin: 0 auto;      
-    }
-    table {
-      border-collapse: collapse;
-      table-layout: fixed;
-      width: 1000px;
-    }
-    td {
-      border: 1px solid #333;
-      width: 250px;       
-      height: 200px;      
-      text-align: center;
-      vertical-align: middle;
-      overflow: hidden;
-    }
-    img {
-      width: 250px; 
-      height: 200px;
-      object-fit: cover; 
-      display: block;
-    }
-  html {
-      scroll-behavior: smooth;
-    }
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.iframe {
+   background-color: #001e59;
+   border: 50px solid #0039ab;
+}
