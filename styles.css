@@ -177,10 +177,12 @@ img {
 	width: 40%;
 	height: auto;
 }
-.table {
+
+.table img{
 	width: 70px;
 	height: auto;
 	border: 3px double #001130;
 }
+
 
 
