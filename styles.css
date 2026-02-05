@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-image: linear-gradient(to top, #d3e7ee, #b0c4de);
-  color: #333;
+  color: #fff;
   line-height: 1.5;
 }
 
@@ -177,3 +177,4 @@ img {
 	width: 40%;
 	height: auto;
 }
+
