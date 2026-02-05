@@ -41,8 +41,6 @@ body {
   background-color: #94cdff;
   padding: 0.4rem;
   color: #2f4f4f;
-  position: sticky;
-  top: 0;
 }
 
 .navbar1 {
@@ -63,6 +61,8 @@ body {
   font-family: garamond, Sans-Serif;
   font-weight: bold;
   letter-spacing: 2px;
+  position: sticky;
+  top: 0;
 }
 
 .nav-links a {
@@ -105,6 +105,7 @@ body {
   position: relative;
   z-index: 1;
   color: #f0f8ff;
+  text-shadow: #00bfff;
 }
 
 .banner1 {
