@@ -139,9 +139,8 @@ body {
 
 .welcome {
   margin: 0.5rem;
-  border: 3px dashed #a9a9a9;
   border-radius: 20px;
-  background: rgba(211, 231, 238, 0.8);
+  background: rgba(158, 219, 255, 0.8);
   color: #2f4f4f;
   text-align: justify;
   font-family: helvetica, sans-serif;
@@ -149,11 +148,11 @@ body {
   word-spacing: 3px;
   width: 850px;
   height: auto;
-  background-color: #d3e7ee;
-  border: 6px double #87c7ff;
+  border: 6px double #2e6687;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .ib { font-style: italic; font-weight: bold; }
@@ -172,17 +171,152 @@ iframe {
 img {
 	width:10%;
 	height: auto;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 .gif {
 	width: 40%;
 	height: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background: rgba(158, 219, 255, 0.8);
+  border: 6px double #2e6687;
+  border-radius: 20px;
+}
+.table{
+  padding: 5px;
+  border-collapse: separate; 
+  border-spacing: 15px 15px;
 }
 
 .table img{
 	width: 70px;
 	height: auto;
 	border: 3px double #001130;
+	justify-content: center;
+	align-content: center;
+}
+.table img:hover {
+	  transform: scale(1.08);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      z-index: 3;
+      transition: all 0.3s ease;
+}
+.table td:hover {
+	  transform: scale(1.08);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      z-index: 2;
+      transition: all 0.3s ease;
+}
+.table td {
+	 background-color: rgba(158, 219, 255, 0.8);
+	  border: 2px solid #2e6687;
+	  border-radius: 20px;
+	  text-align: center;
+}
+.hib {
+  font-style: italic; 
+  font-weight: bold; 
+  background: rgba(87, 199, 255, 0.8);
+  font-family: Courier;
+}
+.head {
+  font-family: Monospace; 
+
+	border-radius: 20px;
+	text-align: center;
+	color: #2f4f4f;
+}
+.h2 {
+  font-family: Monospace, Sans-Serif; 
+}
+.sel {
+   margin: 0.5rem;
+  border-radius: 20px;
+  background: rgba(158, 219, 255, 0.8);
+  color: #2f4f4f;
+  text-align: justify;
+  font-family: helvetica, sans-serif;
+  letter-spacing: -0.4px;
+  word-spacing: 3px;
+  width: 850px;
+  height: auto;
+  border: 6px double #2e6687;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.head a {
+  display: block;
+  color: #2f4f4f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.3s ease;
 }
 
+.head a:link {
+  background-color: transparent;
+  color: #2f4f4f;
+}
+.head a:visited {
+  background-color: transparent;
+  color: #500082;
+}
 
+.head a:hover {
+  background-color: rgba(148, 205, 255, 0.5);
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  color: #4682b4;
+  font-weight: bold;
+}
 
+.head a:active {
+  background-color: rgba(148, 205, 255, 0.7);
+  box-shadow: inset 0 4px 6px rgba(0,0,0,0.2);
+  color: #2f4f4f;
+}
+.about-card { 
+  background: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  width: 350px; 
+  padding: 20px; 
+  text-align: center; 
+  transition: transform 1s ease;
+  height: auto;
+  border: 6px double #2e6687;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.about-card p {
+    text-align: justify;
+}
+
+.about-card:hover { 
+  transform: translateY(-5px); 
+}
+
+.profile-pic img { 
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 3px solid #2f4f4f; 
+  margin-bottom: 15px; 
+} 
+  
+.profile-info h2 { 
+  margin: 10px 0; 
+  font-size: 1.5em; 
+  color: #2f4f4f; 
+} 
+
+.profile-info p { 
+  font-size: 0.95em; 
+  color: #2f4f4f; 
+  line-height: 1.5; 
+}
