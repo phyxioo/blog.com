@@ -38,31 +38,45 @@ body {
   display: block;
   justify-content: center;
   align-items: center;
-  background-color: #94cdff;
-  padding: 0.4rem;
-  color: #2f4f4f;
+  background-color: rgba(48, 205, 255, 0.5);
+  padding: 0.1rem;
+  color: #2f4f4f;  
+  position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 20px;
 }
 
+
 .navbar1 {
+  align-items: center;
+  background-color: #b8ccde;
+  padding: 0.4rem;
+}
+.navbar3 {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: #87c7ff;
   padding: 1rem;
 }
 
+
 .nav-links {
   list-style-type: none;
   margin: 0;
+  z-index: 1000;
   padding: 7px;
   display: flex;
   gap: 1.5rem;
   background-color: #e6eff7;
-  border-radius: 10px;
+  border-radius:210px;
   font-family: garamond, Sans-Serif;
   font-weight: bold;
   letter-spacing: 2px;
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
 }
 
 .nav-links a {
@@ -74,7 +88,7 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: #94cdff;
+  background-color: rgba(148, 205, 255,0.5);
   transform: scale(1.08);
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
   z-index: 2;
@@ -90,23 +104,30 @@ body {
   background-size: cover;
   font-family: helvetica;
   letter-spacing: 2px;
-  position: relative;
+  position: relative;  
+  z-index: 1;
+  color: #f0f8ff;
+
 }
 
 .banner::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(148,205,255,0.4);
-  z-index: 0;
+  background: rgba(148,205,255,0.2); /* lighter overlay */
+  z-index: 0;  
+  
 }
 
-.banner h1, .banner p {
-  position: relative;
-  z-index: 1;
-  color: #f0f8ff;
-  text-shadow: #00bfff;
+.banner h1, .banner p { 
+  position: relative; 
+  z-index: 1; 
+  color: #f0f8ff; 
+  background-color: rgba(23, 76, 122,0.4);
+  width: 100%;
+  border-radius: 20px;
 }
+
 
 .banner1 {
   text-align: center;
