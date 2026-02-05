@@ -41,6 +41,8 @@ body {
   background-color: #94cdff;
   padding: 0.4rem;
   color: #2f4f4f;
+  position: sticky;
+  top: 0;
 }
 
 .navbar1 {
@@ -95,7 +97,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(148,205,255,0.4); /* changed overlay */
+  background: rgba(148,205,255,0.4);
   z-index: 0;
 }
 
@@ -149,4 +151,8 @@ iframe {
 .iframe {
    background-color: #94cdff;
    border: 20px solid #87c7ff;
+}
+img {
+  width:40%;
+  height: 40%;
 }
