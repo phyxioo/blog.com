@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background-image: linear-gradient(to top, #d3e7ee, #b0c4de);
-  color: #fff;
+  background-color: #fff;
   line-height: 1.5;
   font-family: Helvetica;
 }
@@ -183,4 +182,5 @@ img {
 	height: auto;
 	border: 3px double #001130;
 }
+
 
