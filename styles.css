@@ -181,6 +181,13 @@ img {
   border: 6px double #2e6687;
   border-radius: 20px;
 }
+.tablee {
+  border: 6px double #2e6687;
+  border-radius: 20px;
+  align: center;
+  height: auto;
+  width: 40%;
+}
 .table{
   padding: 5px;
   border-collapse: separate; 
@@ -320,5 +327,6 @@ img {
   color: #2f4f4f; 
   line-height: 1.5; 
 }
+
 
 
