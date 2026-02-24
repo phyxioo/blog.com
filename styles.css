@@ -195,7 +195,7 @@ img {
 	align-content: center;
 }
 .table img:hover {
-	  transform: scale(10);
+	  transform: scale(5);
       box-shadow: 0 6px 12px rgba(0,0,0,0.3);
       z-index: 3;
       transition: all 0.3s ease;
@@ -320,4 +320,5 @@ img {
   color: #2f4f4f; 
   line-height: 1.5; 
 }
+
 
